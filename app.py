@@ -50,22 +50,22 @@ genre_artists = {
 # --- User Questions ---
 st.header("🧠 Tell us about yourself")
 
-social = st.radio("When it comes to socialising:", [
+social = st.selectbox("When it comes to socialising:", [
     "I prefer spending time alone or with a small group of close friends (Introversion)",
     "I enjoy large social gatherings and meeting new people (Extraversion)"
 ])
 
-info = st.radio("When processing information:", [
+info = st.selectbox("When processing information:", [
     "I trust facts, data, and real experiences (Sensing)",
     "I focus on patterns, ideas, and possibilities (Intuition)"
 ])
 
-decisions = st.radio("When making decisions:", [
+decisions = st.selectbox("When making decisions:", [
     "I prioritise logic and objectivity (Thinking)",
     "I consider emotions and values (Feeling)"
 ])
 
-planning = st.radio("When planning my day or tasks:", [
+planning = st.selectbox("When planning my day or tasks:", [
     "I like structure, planning, and sticking to schedules (Judging)",
     "I prefer being spontaneous and flexible (Perceiving)"
 ])
