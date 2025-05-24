@@ -32,15 +32,15 @@ y = df['Genre_Label']
 model = DecisionTreeClassifier(random_state=42)
 model.fit(X, y)
 
-# Updated artist mappings
+# FINAL corrected artist mappings
 genre_artists = {
+    'Lofi/Melody': "Shiloh Dynasty, Sagun, Joji, Yot Club",
+    'Pop': "Taylor Swift, Beyonce, Michael Jackson, Sabrina Carpenter",
     'Rap': "ASAP Rocky, Travis Scott, Drake, Kendrick Lamar",
-    'Pop': "Taylor Swift, Sabrina Carpenter, Dua Lipa, Ariana Grande",
-    'Rock': "Green Day, Nirvana, Paramore, Linkin Park",
-    'R&B': "Frank Ocean, Brent Faiyaz, Daniel Caesar, SZA",
-    'Indie': "Arctic Monkeys, Clairo, Phoebe Bridgers, The Smiths",
-    'Classical/Jazz': "Mozart, Beethoven, John Coltrane, Miles Davis",
-    'Lofi/Melody': "Lofi Girl, Eevee, Jinsang, Idealism"
+    'Indie': "Arctic Monkeys, The Smiths, The Pixies, Florence & The Machine",
+    'Rock': "Green Day, The Beatles, Nirvana, Guns 'n Roses",
+    'Classical/Jazz': "Mozart, Miles Davis, Beethoven, Frank Sinatra",
+    'R&B': "Chris Brown, Daniel Caesar, Brent Faiyaz, Frank Ocean"
 }
 
 # User Input Section
